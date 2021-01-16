@@ -1,8 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    pauze += -100
+    pauze2 += -100
 })
 input.onButtonPressed(Button.B, function () {
-    pauze += 100
+    pauze2 += 100
 })
 let bal = game.createSprite(2, 2)
 let pauze = 0
